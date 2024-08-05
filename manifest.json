@@ -1,0 +1,20 @@
+{
+  "manifest_version":3,
+  "name": "오디오 크롬확장 프로그램",
+  "version":"0.0.1",
+  "description": "오디오 크롬확장 프로그램",
+  "author": "Cranberry",
+  "action": {
+    "default_popup":"popup.html"
+  },
+  "web_accessible_resources": [{
+    "matches": ["<all_urls>"],
+    "resources": ["bell.wav"]
+  }],
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
